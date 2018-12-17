@@ -1,6 +1,6 @@
 {
   "name": "MUNDPROPAGANDA.net",
-  "version": "5.0.1",
+  "version": "5.0.2",
   "description": "My personal website available at https://mundpropaganda.net",
   "scripts": {
     "dev": "next",
