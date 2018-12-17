@@ -1,0 +1,28 @@
+{
+  "name": "MUNDPROPAGANDA.net",
+  "version": "5.0.1",
+  "description": "My personal website available at https://mundpropaganda.net",
+  "scripts": {
+    "dev": "next",
+    "export": "npm run build && next export",
+    "build": "next build",
+    "start": "next start",
+    "test": "standard",
+    "preversion": "npm test",
+    "version": "npm run export"
+  },
+  "standard": {
+    "parser": "babel-eslint"
+  },
+  "author": "Christian Mund",
+  "license": "GPL",
+  "dependencies": {
+    "@zeit/next-css": "^1.0.1",
+    "ace-css": "^1.1.0",
+    "next": "^7.0.2",
+    "prop-types": "^15.6.2",
+    "react": "^16.6.3",
+    "react-dom": "^16.6.3",
+    "react-swipeable": "^4.3.0"
+  }
+}

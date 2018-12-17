@@ -1,0 +1,188 @@
+[
+  [
+    {
+      "name": "HTML5",
+      "links": [
+        {
+          "href": "https://pugjs.org",
+          "text": "Pug (Jade)"
+        },
+        {
+          "href": "http://twig.sensiolabs.org/",
+          "text": "Twig"
+        }
+      ]
+    },
+    {
+      "name": "CSS3",
+      "links": [
+        {
+          "href": "http://postcss.org/",
+          "text": "PostCSS"
+        },
+        {
+          "href": "http://sass-lang.com/",
+          "text": "Sass"
+        }
+      ]
+    },
+    {
+      "name": "JavaScript",
+      "links": [
+        {
+          "href": "http://www.ecmascript.org/",
+          "text": "ES6"
+        },
+        {
+          "href": "https://facebook.github.io/react/",
+          "text": "React"
+        },
+        {
+          "href": "http://redux.js.org/",
+          "text": "Redux"
+        },
+        {
+          "href": "https://babeljs.io/",
+          "text": "Babel"
+        },
+        {
+          "href": "https://webpack.github.io/",
+          "text": "Webpack"
+        },
+        {
+          "href": "https://jestjs.io",
+          "text": "Jest"
+        },
+        {
+          "href": "https://mochajs.org/",
+          "text": "Mocha"
+        },
+        {
+          "href": "https://jquery.com/",
+          "text": "jQuery"
+        }
+      ]
+    }
+  ],
+  [
+    {
+      "name": "Node.js",
+      "links": [
+        {
+          "href": "https://expressjs.com/",
+          "text": "Express"
+        },
+        {
+          "href": "http://feathersjs.com/",
+          "text": "Feathers"
+        },
+        {
+          "href": "https://socket.io/",
+          "text": "socket.io"
+        },
+        {
+          "href": "https://www.gatsbyjs.org/",
+          "text": "Gatsby"
+        },
+        {
+          "href": "https://nextjs.org",
+          "text": "Next.js"
+        },
+        {
+          "href": "http://keystonejs.com/",
+          "text": "KeystoneJS"
+        }
+      ]
+    },
+    {
+      "name": "PHP",
+      "links": [
+        {
+          "href": "https://www.slimframework.com/",
+          "text": "Slim"
+        },
+        {
+          "href": "https://symfony.com/",
+          "text": "Symphony"
+        },
+        {
+          "href": "https://laravel.com/",
+          "text": "Laravel"
+        },
+        {
+          "href": "https://wordpress.org",
+          "text": "WordPress"
+        },
+        {
+          "href": "https://bolt.cm/",
+          "text": "Bolt"
+        },
+        {
+          "href": "https://www.prestashop.com",
+          "text": "Prestashop"
+        }
+      ]
+    }
+  ],
+  [
+    {
+      "name": "Betriebssysteme",
+      "links": [
+        {
+          "href": "https://www.kernel.org/",
+          "text": "Linux"
+        },
+        {
+          "href": "https://developer.apple.com/macos/",
+          "text": "macOS"
+        },
+        {
+          "href": "https://www.freebsd.org/de/",
+          "text": "Unix/FreeBSD"
+        }
+      ]
+    },
+    {
+      "name": "Datenbanken",
+      "links": [
+        {
+          "href": "https://mariadb.org/",
+          "text": "MySQL"
+        },
+        {
+          "href": "https://www.sqlite.org/",
+          "text": "SQLite"
+        },
+        {
+          "href": "https://www.mongodb.com/",
+          "text": "mongoDB"
+        },
+        {
+          "href": "https://github.com/louischatriot/nedb",
+          "text": "NeDB"
+        }
+      ]
+    },
+    {
+      "name": "Infrastuktur",
+      "links": [
+        {
+          "href": "https://www.docker.com/",
+          "text": "Docker"
+        },
+        {
+          "href": "https://www.linux-kvm.org/",
+          "text": "KVM"
+        },
+        {
+          "href": "https://www.virtualbox.org/",
+          "text": "Virtualbox"
+        },
+        {
+          "href": "https://cloud.google.com/compute/",
+          "text": "GCE"
+        }
+      ]
+    }
+  ]
+]

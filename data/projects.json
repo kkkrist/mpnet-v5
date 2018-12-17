@@ -1,0 +1,22 @@
+[
+  {
+    "desc": {
+      "__html": "<h3 class=\"mt0\">Produkt-Empfehlungs-Plattform</h3><p>Entwicklung einer Produkt-Empfehlungs-Plattform für Gesundheitsprodukte (Symptomberater) zur Lead-Generierung. Backend mit REST-API + Frontend/Admin-UI.</p><h4>Eingesetzte Qualifikationen</h4><p>Senior Developer Full-Stack JavaScript/ES6+: Node, React, Jest (Test-Automation), CSS (CSS-in-JS), HTML5, Linux/ Virtualization, Docker, CI/CD Deployment</p><h4>Branche</h4><p>Gesundheit und Ernährung (Hamburg)</p>"
+    }
+  },
+  {
+    "desc": {
+      "__html": "<h3 class=\"mt0\">Immobilien-Makler-Portal</h3><p>Konzipierung und Entwicklung eines Immobilien-Makler-Portals. Backend mit UI, Darstellung der Einträge auf einer interaktiven Karte, umfangreiche Filter-Optionen, Rightmove-Integration per API etc.</p><h4>Eingesetzte Qualifikationen</h4><p>Senior Developer Full-Stack JavaScript: Node, Express/Keystone, CSS/SCSS, HTML5/Pug, JavaScript/ES6</p><h4>Branche</h4><p>Immobilien (Kanaren)</p>"
+    }
+  },
+  {
+    "desc": {
+      "__html": "<h3 class=\"mt0\">eLearning-Plattform</h3><p>Konzipierung und Entwicklung einer modernen eLearning-Plattform mit offenen Technologien und vielen Echtzeit-Features für den Unterrichts- Einsatz in allen Jahrgängen und Schulformen, Flipped Classroom, Workshops.</p><h4>Eingesetzte Qualifikationen</h4><p>CTO & Senior Developer Full-Stack JavaScript/ES6+: Node, React, Jest (Test-Automation), CSS (CSS-in-JS), HTML5, Linux/ Virtualization, Docker, CI/CD Deployment</p><h4>Branche</h4><p>Bildungswesen (Flensburg)</p>"
+    }
+  },
+  {
+    "desc": {
+      "__html": "<h3 class=\"mt0\">Positionierung, Lead-Generation</h3><p>Umfangreiche Firmen-Website, Frontend- und Backend-Entwicklung nach Vorgabe, HubSpot-Integration per API.</p><h4>Eingesetzte Qualifikationen</h4><p>Senior Developer, Backend: PHP/Symphony/Bolt (CMS), NodeJS (API), Frontend: HTML5/Twig, CSS/SCSS, JavaScript (Vanilla + jQuery)</p><h4>Branche</h4><p>Maschinen- und Anlagenbau, Luftfahrt, Automobil (Hamburg)</p>"
+    }
+  }
+]

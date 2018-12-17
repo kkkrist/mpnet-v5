@@ -1,0 +1,26 @@
+[
+  {
+    "quote": "Mit der Backend-Programmierung und dem Frontend-Design unserer Website hat Christian Mund die Basis unseres Außenauftritts geschaffen. Aber insbesondere hat er uns mit der schnellen Implementierung individueller Lösungen beeindruckt – Verknüpfung mit unserem CRM-Tool via API, Einbindung von E-Learnings, Hosting unserer Web-Apps, … - Wir freuen uns auf weitere Zusammenarbeit!",
+    "author": {
+      "__html": "Ingo Boegemann, Geschäftsführer <a href=\"https://mb-collaborations.com\" target=\"_blank\">MB Collaborations</a>"
+    }
+  },
+  {
+    "quote": "Christian Mund hat uns bei der Erstellung eines auf unsere beiden Websites abgestimmten Tools für die Verbindung mit der Datenbank sehr wertvolle und professionelle Dienste erwiesen. Professionell, schnell und unkompliziert im Umgang - wir empfehlen ihn sehr gerne.",
+    "author": {
+      "__html": "Dr. Thomas A. Biland, <a href=\"http://da-beratung.ch\" target=\"_blank\">DA Beratung (Zürich)</a>"
+    }
+  },
+  {
+    "quote": "Herr Mund hat sich für uns als ausgesprochen vertrauensvoller Partner erwiesen: Auf seine individuellen IT-Lösungen und Hilfe zum sicheren Umgang mit unseren Daten im Netz kommen wir immer wieder gerne zurück!",
+    "author": {
+      "__html": "Prof. Hans Lentzen, <a href=\"http://melemapharma.de\" target=\"_blank\">Melema Pharma (Hamburg)</a>"
+    }
+  },
+  {
+    "quote": "So sehr wir es bedauert haben, dass Christian uns mit seinem Schritt in die Selbständigkeit verlassen hat, umso mehr freuen wir uns, dass er sich schnell etablieren konnte und uns nunmehr als äußerst kompetenter und verlässlicher Dienstleister für unsere komplexen IT-Systeme zur Verfügung steht.",
+    "author": {
+      "__html": "Marcus-Johannes Heinz, <a href=\"http://amm.de\" target=\"_blank\">AMM (Hamburg)</a>"
+    }
+  }
+]
