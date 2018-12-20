@@ -9,6 +9,7 @@ import { name } from '../package.json'
 export default () => (
   <div className='pullup'>
     <Head>
+      <meta name='Description' content='Persönliche Website von Full-Stack Web-Entwickler & DevOps-Engineer Christian Mund.' />
       <title>
         Christian Mund: Full-Stack Web-Entwickler & DevOps-Engineer ‖ {name}
       </title>

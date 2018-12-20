@@ -5,6 +5,7 @@ import { name } from '../../package.json'
 export default () => (
   <article className='pullup content'>
     <Head>
+      <meta name='Description' content='Über Full-Stack JavaScript Web-Entwickler Christian Mund.' />
       <title>Über ‖ {name}</title>
     </Head>
     <h1>Über Christian Mund</h1>

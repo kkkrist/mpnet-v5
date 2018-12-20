@@ -5,6 +5,7 @@ import { name } from '../../package.json'
 export default () => (
   <article className='pullup content'>
     <Head>
+      <meta name='Description' content='Datenschutzerklärung für MUNDPROPAGANDA.net' />
       <title>Datenschutzerklärung ‖ {name}</title>
     </Head>
     <h1>Datenschutzerklärung</h1>

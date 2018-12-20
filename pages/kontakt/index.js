@@ -5,6 +5,7 @@ import { name } from '../../package.json'
 export default () => (
   <article className='pullup content'>
     <Head>
+      <meta name='Description' content='Sie erreichen mich per E-Mail, Telefon oder Post.' />
       <title>Kontakt ‖ {name}</title>
     </Head>
     <h1>Kontakt</h1>

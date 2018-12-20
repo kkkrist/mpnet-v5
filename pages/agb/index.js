@@ -5,6 +5,7 @@ import { name } from '../../package.json'
 export default () => (
   <article className='pullup content'>
     <Head>
+      <meta name='Description' content='Allgemeine Geschäftsbedingungen für MUNDPROPAGANDA.net' />
       <title>AGB & Quellenangaben ‖ {name}</title>
     </Head>
     <h1>AGB & Quellenangaben</h1>
