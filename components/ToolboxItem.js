@@ -1,10 +1,10 @@
 import PropTypes from 'prop-types'
 import React from 'react'
 
-const ToolboxItem = ({ name, links }) => (
+const ToolboxItem = ({ item: { name, links, svg } }) => (
   <div className='flex items-center toolbox'>
     <div className='icon-wrapper circle'>
-      <img src={`/static/svg/${name}.svg`} />
+      <img src={`data:image/svg+xml;utf-8,${svg}`} />
     </div>
     <div className='mb2 mr2'>
       <strong>{name}</strong>
@@ -46,7 +46,7 @@ const ToolboxItem = ({ name, links }) => (
           max-width: 75px;
           width: 75px;
           border: 3px solid #ddd;
-          transition: all .25s ease-out;
+          transition: all 0.25s ease-out;
         }
         .icon-wrapper img {
           height: 75px;
@@ -54,7 +54,7 @@ const ToolboxItem = ({ name, links }) => (
           max-width: 75px;
           width: 75px;
           padding: 0.66rem;
-          transition: all .25s ease-out;
+          transition: all 0.25s ease-out;
         }
         .toolbox:hover .icon-wrapper {
           border-color: transparent;
@@ -69,8 +69,10 @@ const ToolboxItem = ({ name, links }) => (
 )
 
 ToolboxItem.propTypes = {
-  name: PropTypes.string.isRequired,
-  links: PropTypes.array.isRequired
+  item: PropTypes.shape({
+    name: PropTypes.string.isRequired,
+    links: PropTypes.array.isRequired
+  })
 }
 
 export default ToolboxItem
