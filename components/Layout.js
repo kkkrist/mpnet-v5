@@ -63,6 +63,7 @@ const Layout = ({ children }) => (
         }
       }
       @font-face {
+        font-display: fallback;
         font-family: 'IBM Plex Mono';
         font-style: normal;
         font-weight: 400;
@@ -73,6 +74,7 @@ const Layout = ({ children }) => (
             format('woff');
       }
       @font-face {
+        font-display: fallback;
         font-family: 'IBM Plex Mono';
         font-style: italic;
         font-weight: 400;
@@ -82,6 +84,7 @@ const Layout = ({ children }) => (
           url('/static/fonts/ibm-plex-mono-v3-latin-italic.woff') format('woff');
       }
       @font-face {
+        font-display: fallback;
         font-family: 'IBM Plex Mono';
         font-style: normal;
         font-weight: 500;
@@ -90,6 +93,7 @@ const Layout = ({ children }) => (
           url('/static/fonts/ibm-plex-mono-v3-latin-500.woff') format('woff');
       }
       @font-face {
+        font-display: fallback;
         font-family: 'IBM Plex Mono';
         font-style: italic;
         font-weight: 500;
@@ -101,6 +105,7 @@ const Layout = ({ children }) => (
             format('woff');
       }
       @font-face {
+        font-display: fallback;
         font-family: 'IBM Plex Mono';
         font-style: normal;
         font-weight: 700;
@@ -109,6 +114,7 @@ const Layout = ({ children }) => (
           url('/static/fonts/ibm-plex-mono-v3-latin-700.woff') format('woff');
       }
       @font-face {
+        font-display: fallback;
         font-family: 'IBM Plex Mono';
         font-style: italic;
         font-weight: 700;
