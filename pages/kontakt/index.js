@@ -28,7 +28,10 @@ export default () => (
       </li>
       <li>
         PGP:{' '}
-        <a href='https://pgp.mit.edu/pks/lookup?search=0xE87882503EEF14CE&amp;op=index&amp;fingerprint=on&amp;exact=on'>
+        <a
+          href='https://pgp.mit.edu/pks/lookup?search=0xE87882503EEF14CE&amp;op=index&amp;fingerprint=on&amp;exact=on'
+          rel='noopener'
+        >
           0xE87882503EEF14CE
         </a>
       </li>

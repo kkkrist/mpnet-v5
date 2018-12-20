@@ -9,7 +9,10 @@ const Footer = () => (
       <li className='h6 inline black'>
         &copy; {new Date().getFullYear()} MUND<span className='red'>
           PROPAGANDA
-        </span>.net ‖ Christian Mund v{version} (<a href='https://github.com/kkkrist/mpnet-v5'>
+        </span>.net ‖ Christian Mund v{version} (<a
+          href='https://github.com/kkkrist/mpnet-v5'
+          rel='noopener'
+        >
           GitHub
         </a>)
       </li>

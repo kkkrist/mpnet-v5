@@ -11,7 +11,7 @@ const ToolboxItem = ({ item: { name, links, svg } }) => (
       <br className='xs-display-none' />
       {links.map((link, index) => (
         <small key={index}>
-          <a href={link.href} target='_blank'>
+          <a href={link.href} rel='noopener' target='_blank'>
             {link.text}
           </a>
           {index !== links.length - 1 ? ', ' : ''}
