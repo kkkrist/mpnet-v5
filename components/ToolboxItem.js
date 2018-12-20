@@ -4,7 +4,7 @@ import React from 'react'
 const ToolboxItem = ({ item: { name, links, svg } }) => (
   <div className='flex items-center toolbox'>
     <div className='icon-wrapper circle'>
-      <img src={`data:image/svg+xml;utf-8,${svg}`} />
+      <img alt={`${name}-Icon`}src={`data:image/svg+xml;utf-8,${svg}`} />
     </div>
     <div className='mb2 mr2'>
       <strong>{name}</strong>
