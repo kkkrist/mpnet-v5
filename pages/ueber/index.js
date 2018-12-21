@@ -61,7 +61,7 @@ export default () => (
       Möglichkeit, das Hamburger Büro einer etablierten Marketing-Agentur mit
       aufzubauen.
     </p>
-    <figure className='center sm-right sm-m2' style={{ maxWidth: '300px' }}>
+    <figure className='mx-auto center sm-right sm-m2' style={{ maxWidth: '300px' }}>
       <Image
         alt='Christian Mund mit ECHO (Foto: Marcus-Johannes Heinz)'
         height={400}
