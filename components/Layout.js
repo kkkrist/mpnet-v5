@@ -18,6 +18,9 @@ const Layout = ({ children }) => (
     <Footer />
 
     <style jsx global>{`
+      :root {
+        --red: #EB0C00;
+      }
       a {
         color: inherit;
         text-decoration: none;
@@ -28,8 +31,8 @@ const Layout = ({ children }) => (
         transition: all 0.2s ease-out;
       }
       a:not(.plain):hover {
-        border-bottom: 1px solid #ff4136;
-        box-shadow: inset 0 -2px 0 #ff4136;
+        border-bottom: 1px solid var(--red);
+        box-shadow: inset 0 -2px 0 var(--red);
       }
       body {
         background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 1600 900'%3E%3Cpolygon fill='%23f9f9f9' points='957 450 539 900 1396 900'/%3E%3Cpolygon fill='%23ffffff' points='957 450 872.9 900 1396 900'/%3E%3Cpolygon fill='%23f8f8f8' points='-60 900 398 662 816 900'/%3E%3Cpolygon fill='%23fcfcfc' points='337 900 398 662 816 900'/%3E%3Cpolygon fill='%23f7f7f7' points='1203 546 1552 900 876 900'/%3E%3Cpolygon fill='%23f8f8f8' points='1203 546 1552 900 1162 900'/%3E%3Cpolygon fill='%23f7f7f7' points='641 695 886 900 367 900'/%3E%3Cpolygon fill='%23f5f5f5' points='587 900 641 695 886 900'/%3E%3Cpolygon fill='%23f6f6f6' points='1710 900 1401 632 1096 900'/%3E%3Cpolygon fill='%23f1f1f1' points='1710 900 1401 632 1365 900'/%3E%3Cpolygon fill='%23f5f5f5' points='1210 900 971 687 725 900'/%3E%3Cpolygon fill='%23eeeeee' points='943 900 1210 900 971 687'/%3E%3C/svg%3E");
@@ -42,6 +45,9 @@ const Layout = ({ children }) => (
       p {
         margin: 0 0 0.5em 0;
       }
+      .bg-red {
+        background-color: var(--red);
+      }
       .content {
         hyphens: auto;
       }
@@ -50,6 +56,9 @@ const Layout = ({ children }) => (
       }
       .pullup {
         animation: 0.2s pullup ease-out forwards;
+      }
+      .red {
+        color: var(--red);
       }
       @keyframes pullup {
         0% {
