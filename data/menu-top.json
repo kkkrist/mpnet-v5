@@ -4,11 +4,11 @@
     "text": "Startseite"
   },
   {
-    "url": "/ueber/",
+    "url": "/ueber",
     "text": "Über mich"
   },
   {
-    "url": "/kontakt/",
+    "url": "/kontakt",
     "text": "Kontakt"
   }
 ]
