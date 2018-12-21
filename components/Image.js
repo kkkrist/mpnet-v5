@@ -35,7 +35,7 @@ export default class Image extends PureComponent {
           onLoad={this.handleLoad}
           ref={this.imgRef}
           src={src}
-          style={{ height, width }}
+          style={{ height: 'auto', width }}
         />
       </div>
     )
