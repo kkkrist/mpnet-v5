@@ -48,6 +48,9 @@ const Layout = ({ children }) => (
       .bg-red {
         background-color: var(--red);
       }
+      .border-red {
+        border-color: var(--red);
+      }
       .content {
         hyphens: auto;
       }

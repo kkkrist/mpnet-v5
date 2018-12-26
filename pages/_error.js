@@ -6,26 +6,51 @@ export default class Error extends Component {
     return { statusCode }
   }
 
+  state = { guru: true }
+
   render () {
     const { statusCode } = this.props
     return (
-      <article className='pullup'>
-        <h1>D'oh?!</h1>
-        <p className='center emoji' />
-        <p className='center'>
-          {statusCode
-            ? `Es ist ein Fehler auf dem Server aufgetreten (${
-              statusCode === 404 ? 'Inhalt nicht gefunden' : statusCode
-            })!`
-            : 'Es ist ein Fehler aufgetreten!'}
-        </p>
+      <div>
+        <article className='pullup'>
+          <h1 className='center'>D'oh?!</h1>
+          <p className='center emoji' />
+          <p className='center'>
+            {statusCode
+              ? `Es ist ein Fehler auf dem Server aufgetreten (${
+                statusCode === 404 ? 'Inhalt nicht gefunden' : statusCode
+              })!`
+              : 'Es ist ein Fehler aufgetreten!'}
+          </p>
+        </article>
+        {this.state.guru && <div
+          className='fixed bg-black bottom-0 left-0 right-0 top-0'
+          onClick={() => this.setState({ guru: false })}
+          style={{ cursor: 'pointer' }}
+        >
+          <div
+            className='bold border border-blink border-red center m2 p2 red'
+            style={{ borderWidth: '0.5rem' }}
+          >
+            <p>Software Failure. Press left mouse button to continue.</p>
+            <p>Guru Meditation #00000000.00000404</p>
+          </div>
+        </div>}
         <style jsx>{`
+          .border-blink {
+            animation: blinky-borders 2s steps(1,end) infinite;
+          }
           .emoji:after {
             content: '😯';
             font-size: 5rem;
-            animation: blinking 1.5s ease infinite alternate;
+            animation: desperation 1.5s ease infinite alternate;
           }
-          @keyframes blinking {
+          @keyframes blinky-borders {
+            50% {
+              border-color: transparent;
+            }
+          }
+          @keyframes desperation {
             0% {
               content: '😯';
             }
@@ -35,10 +60,9 @@ export default class Error extends Component {
             100% {
               content: '😩';
             }
-
           }
         `}</style>
-      </article>
+      </div>
     )
   }
 }
