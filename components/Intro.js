@@ -45,7 +45,7 @@ export default () => (
         alt='Christian Mund'
         height={150}
         placeholder={Placeholder}
-        src='/static/photos/Christian_Mund3.jpg'
+        src='/static/photos/Christian_Mund3.png'
         width={150}
       />
       <div>
