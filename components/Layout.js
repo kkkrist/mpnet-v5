@@ -9,6 +9,8 @@ const KONAMI_CODE = [38, 38, 40, 40, 37, 39, 37, 39, 66, 65]
 export default class Layout extends Component {
   cursor = 0
 
+  state = { konami: false }
+
   componentDidMount () {
     window.document.addEventListener('keydown', this.handleKeyDown, {
       passive: true
@@ -24,7 +26,7 @@ export default class Layout extends Component {
 
     if (this.cursor === KONAMI_CODE.length) {
       window.document.removeEventListener('keydown', this.handleKeyDown)
-      window.alert('KONAMI!')
+      this.setState({ konami: true })
     }
   }
 
@@ -34,6 +36,9 @@ export default class Layout extends Component {
     return (
       <div className='max-width-4 mx-auto layout p3'>
         <Head>
+          {this.state.konami && (
+            <link href='/static/css/amiga.css' rel='stylesheet' />
+          )}
           <link href='/static/favicon.png' rel='icon' />
           <meta
             name='viewport'
@@ -50,14 +55,16 @@ export default class Layout extends Component {
         <style jsx global>{`
           :root {
             --red: #eb0c00;
+            --reallyred: #eb0c00;
+            --silver: #ddd;
           }
           a {
             color: inherit;
             text-decoration: none;
           }
           a:not(.plain) {
-            border-bottom: 1px solid #ddd;
-            box-shadow: inset 0 -2px 0 #ddd;
+            border-bottom: 1px solid var(--silver);
+            box-shadow: inset 0 -2px 0 var(--silver);
             transition: all 0.2s ease-out;
           }
           a:not(.plain):hover {

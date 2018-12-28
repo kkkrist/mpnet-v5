@@ -1,0 +1,45 @@
+:root {
+  --background: #1a54ae;
+  --foreground: #fff;
+  --highlight: #000;
+  --red: #ff8802;
+  --reallyred: #eb0c00;
+  --silver: #000;
+}
+
+body {
+  background-color: var(--background);
+  background-image: none;
+  color: var(--foreground);
+  font-family: 'Topaz';
+}
+
+.bg-silver {
+  background-color: var(--highlight);
+}
+
+.bg-white {
+  background-color: var(--background);
+}
+
+.black {
+  color: var(--foreground);
+}
+
+.border-silver {
+  border-color: var(--highlight);
+}
+
+.toolbox:not(:hover) .icon-wrapper {
+  border-color: var(--highlight)!important;
+}
+
+@font-face {
+  font-display: fallback;
+  font-family: 'Topaz';
+  font-style: normal;
+  font-weight: 400;
+  src: local('TopazPlus a500a1000a2000'),
+    url('/static/fonts/TopazPlusa500v10.woff2') format('woff2'),
+    url('/static/fonts/TopazPlusa500v10.woff') format('woff');
+}

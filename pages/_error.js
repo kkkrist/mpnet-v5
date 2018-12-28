@@ -23,22 +23,28 @@ export default class Error extends Component {
               : 'Es ist ein Fehler aufgetreten!'}
           </p>
         </article>
-        {this.state.guru && <div
-          className='fixed bg-black bottom-0 left-0 right-0 top-0'
-          onClick={() => this.setState({ guru: false })}
-          style={{ cursor: 'pointer' }}
-        >
+        {this.state.guru && (
           <div
-            className='bold border border-blink border-red center m2 p2 red'
-            style={{ borderWidth: '0.5rem' }}
+            className='fixed bg-black bottom-0 left-0 right-0 top-0'
+            onClick={() => this.setState({ guru: false })}
+            style={{ cursor: 'pointer' }}
           >
-            <p>Software Failure. Press left mouse button to continue.</p>
-            <p>Guru Meditation #00000000.00000404</p>
+            <div
+              className='bold border border-blink center m2 p2'
+              style={{
+                color: 'var(--reallyred)',
+                borderColor: 'var(--reallyred)',
+                borderWidth: '0.5rem'
+              }}
+            >
+              <p>Software Failure. Press left mouse button to continue.</p>
+              <p>Guru Meditation #00000000.00000404</p>
+            </div>
           </div>
-        </div>}
+        )}
         <style jsx>{`
           .border-blink {
-            animation: blinky-borders 2s steps(1,end) infinite;
+            animation: blinky-borders 2s steps(1, end) infinite;
           }
           .emoji:after {
             content: '😯';
