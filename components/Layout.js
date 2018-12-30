@@ -4,29 +4,29 @@ import Footer from './Footer'
 import Header from './Header'
 import 'ace-css/css/ace.min.css'
 
-const KONAMI_CODE = [38, 38, 40, 40, 37, 39, 37, 39, 66, 65]
+const AMIGA_CODE = [84, 85, 82, 80, 69, 78, 84, 73, 78, 69]
 
 export default class Layout extends Component {
   cursor = 0
 
-  state = { konami: false }
+  state = { amiga: false }
 
   componentDidMount () {
-    window.document.addEventListener('keydown', this.handleKeyDown, {
+    window.addEventListener('keydown', this.handleKeyDown, {
       passive: true
     })
   }
 
   handleKeyDown = ({ keyCode }) => {
-    if (keyCode === KONAMI_CODE[this.cursor]) {
+    if (keyCode === AMIGA_CODE[this.cursor]) {
       this.cursor++
     } else if (this.cursor > 0) {
       this.cursor = 0
     }
 
-    if (this.cursor === KONAMI_CODE.length) {
+    if (this.cursor === AMIGA_CODE.length) {
       window.document.removeEventListener('keydown', this.handleKeyDown)
-      this.setState({ konami: true })
+      this.setState({ amiga: true })
     }
   }
 
@@ -36,7 +36,7 @@ export default class Layout extends Component {
     return (
       <div className='max-width-4 mx-auto layout p3'>
         <Head>
-          {this.state.konami && (
+          {this.state.amiga && (
             <link href='/static/css/amiga.css' rel='stylesheet' />
           )}
           <link href='/static/favicon.png' rel='icon' />
