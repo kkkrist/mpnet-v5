@@ -39,7 +39,7 @@ export default class Layout extends Component {
           {this.state.amiga && (
             <link href='/static/css/amiga.css' rel='stylesheet' />
           )}
-          <link href='/static/favicon.png' rel='icon' />
+          <link href='/static/icons/favicon.png' rel='icon' />
           <meta
             name='viewport'
             content='initial-scale=1.0, width=device-width'
