@@ -7,6 +7,10 @@
   --silver: #000;
 }
 
+a, body {
+  cursor: url(/static/amiga-pointer.ico), auto!important;
+}
+
 body {
   background-color: var(--background);
   background-image: none;
