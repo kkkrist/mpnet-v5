@@ -43,6 +43,10 @@ body::before {
   color: var(--foreground);
 }
 
+.btn:hover {
+  cursor: inherit;
+}
+
 .border-silver {
   border-color: var(--highlight);
 }
