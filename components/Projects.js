@@ -1,5 +1,5 @@
 import React, { Component } from 'react'
-import Swipeable from 'react-swipeable'
+import { Swipeable } from 'react-swipeable'
 import Headline from './Headline'
 import items from '../data/projects.json'
 
