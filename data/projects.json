@@ -1,6 +1,11 @@
 [
   {
     "desc": {
+      "__html": "<h3 class=\"mt0\">JavaScript-Frontend für IaaS-Produkt</h3><p>Entwicklung und Konzeption eines JavaScript-basierten Web-Frontends für einen führenden Infrastructure-as-a-Service B2B-Anbieter im Bereich E-Mail, Consulting für Backend-API.</p><h4>Eingesetzte Qualifikationen</h4><p>Lead Developer Frontend JavaScript/ES6+: React, Jest (Test-Automation), CSS, HTML5, Docker, CI/CD Deployment, Git/GitHub-Workflow</p><h4>Branche</h4><p>Infrastructure-as-a-Service/E-Mail (Hamburg)</p>"
+    }
+  },
+  {
+    "desc": {
       "__html": "<h3 class=\"mt0\">Produkt-Empfehlungs-Plattform</h3><p>Entwicklung einer Produkt-Empfehlungs-Plattform für Gesundheitsprodukte (Symptomberater) zur Lead-Generierung. Backend mit REST-API + Frontend/Admin-UI.</p><h4>Eingesetzte Qualifikationen</h4><p>Senior Developer Full-Stack JavaScript/ES6+: Node, React, Jest (Test-Automation), CSS (CSS-in-JS), HTML5, Linux/ Virtualization, Docker, CI/CD Deployment</p><h4>Branche</h4><p>Gesundheit und Ernährung (Hamburg)</p>"
     }
   },
