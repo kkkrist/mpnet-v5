@@ -11,7 +11,7 @@ export default () => (
     <Head>
       <meta name='Description' content='Persönliche Website von Full-Stack Web-Entwickler & DevOps-Engineer Christian Mund.' />
       <title>
-        Christian Mund: Full-Stack Web-Entwickler & DevOps-Engineer ‖ {name}
+        Christian Mund: Full-Stack Web Developer & Product Engineer ‖ {name}
       </title>
     </Head>
     <Intro />

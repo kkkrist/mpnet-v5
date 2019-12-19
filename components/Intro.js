@@ -51,7 +51,7 @@ export default () => (
       <div>
         <h1 className='h2 mb0'>Christian Mund</h1>
         <h2 className='h3 mt2 sm-mt0'>
-          Full-Stack Web-Entwickler & DevOps-Engineer
+          Full-Stack Web Developer & Product Engineer
         </h2>
       </div>
       <style jsx>{`
