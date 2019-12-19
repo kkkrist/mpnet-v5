@@ -18,8 +18,8 @@ export default class Error extends Component {
           <p className='center'>
             {statusCode
               ? `Es ist ein Fehler auf dem Server aufgetreten (${
-                statusCode === 404 ? 'Inhalt nicht gefunden' : statusCode
-              })!`
+                  statusCode === 404 ? 'Inhalt nicht gefunden' : statusCode
+                })!`
               : 'Es ist ein Fehler aufgetreten!'}
           </p>
         </article>

@@ -7,14 +7,13 @@ const Footer = () => (
   <footer className='mt4 pt4'>
     <ul className='h4 m0 list-reset mx-auto center'>
       <li className='h6 inline black'>
-        &copy; {new Date().getFullYear()} MUND<span className='red'>
-          PROPAGANDA
-        </span>.net ‖ Christian Mund v{version} (<a
-          href='https://github.com/kkkrist/mpnet-v5'
-          rel='noopener'
-        >
+        &copy; {new Date().getFullYear()} MUND
+        <span className='red'>PROPAGANDA</span>.net ‖ Christian Mund v{version}{' '}
+        (
+        <a href='https://github.com/kkkrist/mpnet-v5' rel='noopener'>
           GitHub
-        </a>)
+        </a>
+        )
       </li>
       {entries.map((entry, index) => (
         <li key={index} className='h6 inline-block black'>

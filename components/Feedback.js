@@ -7,7 +7,9 @@ const Feedback = () => (
     <Headline>Das sagen die Kunden:</Headline>
     {quotes.map((item, index) => (
       <blockquote className='h4' key={index}>
-        <p className='ml1' style={{ textIndent: '-0.5rem' }}>{item.quote}</p>
+        <p className='ml1' style={{ textIndent: '-0.5rem' }}>
+          {item.quote}
+        </p>
         <footer
           className='mb3 ml1 bold'
           dangerouslySetInnerHTML={item.author}
