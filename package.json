@@ -7,7 +7,7 @@
     "export": "npm run build && next export",
     "build": "next build",
     "start": "next start",
-    "test": "standard",
+    "test": "prettier-standard components/** pages/**",
     "preversion": "npm test",
     "version": "npm run export"
   },
