@@ -70,9 +70,9 @@ export default () => (
       Backend-Entwicklung (Micro-Services, APIs, Datenbanken) und in der
       Administration von heterogenen Server-Infrastrukturen (v.a. Unix). Mein
       Heimathafen heißt ⚓️ <em>Flensburg</em>, zuvor war ich viele Jahre von{' '}
-      <em>Hamburg</em> aus tätig. <a href='/ueber/'>Mehr über mich…</a>
+      <em>Hamburg</em> aus tätig. <a href='/ueber'>Mehr über mich…</a>
     </p>
-    <Link href='/kontakt/'>
+    <Link href='/kontakt'>
       <a className='btn btn-primary bg-red plain'>Mit mir arbeiten!</a>
     </Link>
   </div>
