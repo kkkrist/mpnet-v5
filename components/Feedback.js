@@ -29,10 +29,10 @@ const Feedback = () => (
         color: #aaa;
       }
       p:before {
-        content: '\\201C';
+        content: '“';
       }
       p:after {
-        content: '\\201D';
+        content: '”';
       }
     `}</style>
   </div>
